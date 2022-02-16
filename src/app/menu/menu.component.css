@@ -4,6 +4,10 @@ header {
   padding: 15px 0;
 }
 
+.header-scrolled{
+  background: rgba(46, 46, 46, 0.9);
+}
+
 .navbar a, .navbar a:focus {
 
 

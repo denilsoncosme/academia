@@ -5,11 +5,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChangeClassScrollPassedDirective } from './diretives/change-class-scroll-passed.directive';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ChangeClassScrollPassedDirective
   ],
   imports: [
     BrowserModule,
